@@ -8,7 +8,6 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from orgunits.api_v1 import views
-
 router = DefaultRouter()
 router.register("organizations", views.OrganizationViewSet)
 
